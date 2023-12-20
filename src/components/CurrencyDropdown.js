@@ -9,7 +9,7 @@ const CurrencyDropdown = () => {
 
         dispatch({
             type: 'CHG_CURRENCY',
-            payload: newCurrency
+            payload: event.target.value
         });
     }
     return (
